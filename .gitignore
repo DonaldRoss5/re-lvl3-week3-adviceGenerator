@@ -10,3 +10,7 @@ dist
 *.sln
 *.sw?
 .env
+
+
+#ignoring the starter pack folder
+starter_pack_fm/
