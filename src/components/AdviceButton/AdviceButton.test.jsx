@@ -2,7 +2,6 @@ import { render, screen } from '@testing-library/react';
 import userEvent from '@testing-library/user-event';
 import { describe, expect, it, vi } from 'vitest';
 import AdviceButton from './AdviceButton.jsx';
-
 describe('AdviceButton', () => {
   it('announces its purpose and handles an enabled click', async () => {
     const user = userEvent.setup();

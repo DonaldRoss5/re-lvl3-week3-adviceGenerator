@@ -6,7 +6,6 @@ import "./styles/main.scss";
 
 const root = document.getElementById("root");
 
-const NEW_COOLDOWN_MS = 5000;
 
 createRoot(root).render(
   <StrictMode>
