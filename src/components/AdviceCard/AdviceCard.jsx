@@ -1,5 +1,5 @@
 import AdviceButton from '../AdviceButton/AdviceButton.jsx';
-
+import CopyButton from '../CopyButton/CopyButton.jsx';
 
 /**
  * AdviceCard renders the challenge content and delegates interaction to AdviceButton.
@@ -70,7 +70,11 @@ function AdviceCard({
         label={buttonLabel}
         onClick={onGenerateAdvice}
       />
+      
+
+      <CopyButton adviceText={adviceText} isDisabled={!hasAdvice} />
     </article>
+
   );
 }
 
